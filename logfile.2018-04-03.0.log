@@ -1,0 +1,147 @@
+2018-04-03 11:02:25.090 [main] INFO  com.example.redisspringboot.RedisTest - Starting RedisTest on DESKTOP-E1KVEEQ with PID 372 (started by miss in F:\define\Define Job\redis-springboot)
+2018-04-03 11:02:25.122 [main] DEBUG com.example.redisspringboot.RedisTest - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2018-04-03 11:02:25.122 [main] INFO  com.example.redisspringboot.RedisTest - No active profile set, falling back to default profiles: default
+2018-04-03 11:02:25.247 [main] INFO  o.s.w.context.support.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4145bad8: startup date [Tue Apr 03 11:02:25 CST 2018]; root of context hierarchy
+2018-04-03 11:02:26.850 [background-preinit] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2018-04-03 11:02:26.975 [background-preinit] DEBUG o.h.v.i.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-04-03 11:02:28.256 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+2018-04-03 11:02:28.288 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration - Using auto-configuration base package 'com.example.redisspringboot'
+2018-04-03 11:02:28.296 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\define\Define Job\redis-springboot\target\classes\com\example\redisspringboot\mapper\UserMapper.class]
+2018-04-03 11:02:28.301 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.example.redisspringboot.mapper.UserMapper' mapperInterface
+2018-04-03 11:02:28.301 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2018-04-03 11:02:28.369 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-04-03 11:02:29.417 [main] DEBUG o.h.v.i.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-04-03 11:02:29.445 [main] DEBUG o.h.v.i.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-04-03 11:02:29.445 [main] DEBUG o.h.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-04-03 11:02:29.445 [main] DEBUG o.h.validator.internal.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-04-03 11:02:29.445 [main] DEBUG o.h.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy75
+2018-04-03 11:02:29.445 [main] DEBUG o.h.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-04-03 11:02:29.461 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2018-04-03 11:02:29.461 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2018-04-03 11:02:29.461 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-04-03 11:02:29.461 [main] DEBUG o.h.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2018-04-03 11:02:29.932 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2018-04-03 11:02:30.010 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+2018-04-03 11:02:30.478 [main] INFO  com.example.redisspringboot.config.RedisConfig - JedisPool注入成功！！
+2018-04-03 11:02:30.478 [main] INFO  com.example.redisspringboot.config.RedisConfig - redis地址：http://k8s.definesys.com:30009
+2018-04-03 11:02:30.900 [main] DEBUG o.h.v.i.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-04-03 11:02:30.900 [main] DEBUG o.h.v.i.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-04-03 11:02:30.900 [main] DEBUG o.h.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-04-03 11:02:30.900 [main] DEBUG o.h.validator.internal.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-04-03 11:02:30.900 [main] DEBUG o.h.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy75
+2018-04-03 11:02:30.900 [main] DEBUG o.h.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-04-03 11:02:30.900 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2018-04-03 11:02:30.900 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2018-04-03 11:02:30.900 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-04-03 11:02:30.900 [main] DEBUG o.h.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2018-04-03 11:02:31.251 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@4145bad8: startup date [Tue Apr 03 11:02:25 CST 2018]; root of context hierarchy
+2018-04-03 11:02:31.351 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/user/addUser],methods=[POST]}" onto public com.example.redisspringboot.entity.User com.example.redisspringboot.controller.UserController.addUser(com.example.redisspringboot.entity.User)
+2018-04-03 11:02:31.351 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/user/delUser],methods=[GET]}" onto public void com.example.redisspringboot.controller.UserController.delUser(java.lang.String)
+2018-04-03 11:02:31.351 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/user/getUser],methods=[GET]}" onto public com.example.redisspringboot.entity.User com.example.redisspringboot.controller.UserController.getUserByName(java.lang.String)
+2018-04-03 11:02:31.351 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/user/clearAll],methods=[GET]}" onto public void com.example.redisspringboot.controller.UserController.delAll()
+2018-04-03 11:02:31.351 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-03 11:02:31.351 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-03 11:02:31.445 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-03 11:02:31.445 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-03 11:02:31.492 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-03 11:02:31.555 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration - No org.mybatis.spring.mapper.MapperFactoryBean found.
+2018-04-03 11:02:31.976 [main] INFO  com.example.redisspringboot.RedisTest - Started RedisTest in 8.313 seconds (JVM running for 11.517)
+2018-04-03 11:02:32.176 [Thread-3] INFO  o.s.w.context.support.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@4145bad8: startup date [Tue Apr 03 11:02:25 CST 2018]; root of context hierarchy
+2018-04-03 11:06:47.322 [main] INFO  com.example.redisspringboot.RedisTest - Starting RedisTest on DESKTOP-E1KVEEQ with PID 10100 (started by miss in F:\define\Define Job\redis-springboot)
+2018-04-03 11:06:47.322 [main] DEBUG com.example.redisspringboot.RedisTest - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2018-04-03 11:06:47.322 [main] INFO  com.example.redisspringboot.RedisTest - No active profile set, falling back to default profiles: default
+2018-04-03 11:06:47.369 [main] INFO  o.s.w.context.support.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4145bad8: startup date [Tue Apr 03 11:06:47 CST 2018]; root of context hierarchy
+2018-04-03 11:06:47.682 [background-preinit] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2018-04-03 11:06:47.728 [background-preinit] DEBUG o.h.v.i.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-04-03 11:06:48.229 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+2018-04-03 11:06:48.244 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration - Using auto-configuration base package 'com.example.redisspringboot'
+2018-04-03 11:06:48.244 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\define\Define Job\redis-springboot\target\classes\com\example\redisspringboot\mapper\UserMapper.class]
+2018-04-03 11:06:48.244 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.example.redisspringboot.mapper.UserMapper' mapperInterface
+2018-04-03 11:06:48.244 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2018-04-03 11:06:48.275 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-04-03 11:06:48.872 [main] DEBUG o.h.v.i.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-04-03 11:06:48.872 [main] DEBUG o.h.v.i.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-04-03 11:06:48.888 [main] DEBUG o.h.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-04-03 11:06:48.888 [main] DEBUG o.h.validator.internal.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-04-03 11:06:48.888 [main] DEBUG o.h.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy75
+2018-04-03 11:06:48.888 [main] DEBUG o.h.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-04-03 11:06:48.888 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2018-04-03 11:06:48.888 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2018-04-03 11:06:48.888 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-04-03 11:06:48.888 [main] DEBUG o.h.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2018-04-03 11:06:49.326 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2018-04-03 11:06:49.388 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+2018-04-03 11:06:49.685 [main] INFO  com.example.redisspringboot.config.RedisConfig - JedisPool注入成功！！
+2018-04-03 11:06:49.685 [main] INFO  com.example.redisspringboot.config.RedisConfig - redis地址：k8s.definesys.com:30009
+2018-04-03 11:06:49.983 [main] DEBUG o.h.v.i.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-04-03 11:06:49.999 [main] DEBUG o.h.v.i.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-04-03 11:06:49.999 [main] DEBUG o.h.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-04-03 11:06:49.999 [main] DEBUG o.h.validator.internal.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-04-03 11:06:49.999 [main] DEBUG o.h.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy75
+2018-04-03 11:06:49.999 [main] DEBUG o.h.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-04-03 11:06:49.999 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2018-04-03 11:06:49.999 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2018-04-03 11:06:49.999 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-04-03 11:06:49.999 [main] DEBUG o.h.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2018-04-03 11:06:50.265 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@4145bad8: startup date [Tue Apr 03 11:06:47 CST 2018]; root of context hierarchy
+2018-04-03 11:06:50.358 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/user/addUser],methods=[POST]}" onto public com.example.redisspringboot.entity.User com.example.redisspringboot.controller.UserController.addUser(com.example.redisspringboot.entity.User)
+2018-04-03 11:06:50.358 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/user/delUser],methods=[GET]}" onto public void com.example.redisspringboot.controller.UserController.delUser(java.lang.String)
+2018-04-03 11:06:50.358 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/user/clearAll],methods=[GET]}" onto public void com.example.redisspringboot.controller.UserController.delAll()
+2018-04-03 11:06:50.358 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/user/getUser],methods=[GET]}" onto public com.example.redisspringboot.entity.User com.example.redisspringboot.controller.UserController.getUserByName(java.lang.String)
+2018-04-03 11:06:50.358 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-03 11:06:50.358 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-03 11:06:50.405 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-03 11:06:50.405 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-03 11:06:50.452 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-03 11:06:50.530 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration - No org.mybatis.spring.mapper.MapperFactoryBean found.
+2018-04-03 11:06:50.843 [main] INFO  com.example.redisspringboot.RedisTest - Started RedisTest in 4.161 seconds (JVM running for 5.302)
+2018-04-03 11:06:52.735 [Thread-3] INFO  o.s.w.context.support.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@4145bad8: startup date [Tue Apr 03 11:06:47 CST 2018]; root of context hierarchy
+2018-04-03 11:08:54.675 [main] INFO  com.example.redisspringboot.RedisTest - Starting RedisTest on DESKTOP-E1KVEEQ with PID 448 (started by miss in F:\define\Define Job\redis-springboot)
+2018-04-03 11:08:54.675 [main] DEBUG com.example.redisspringboot.RedisTest - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2018-04-03 11:08:54.675 [main] INFO  com.example.redisspringboot.RedisTest - No active profile set, falling back to default profiles: default
+2018-04-03 11:08:54.722 [main] INFO  o.s.w.context.support.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4145bad8: startup date [Tue Apr 03 11:08:54 CST 2018]; root of context hierarchy
+2018-04-03 11:08:55.072 [background-preinit] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2018-04-03 11:08:55.103 [background-preinit] DEBUG o.h.v.i.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-04-03 11:08:55.454 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+2018-04-03 11:08:55.454 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration - Using auto-configuration base package 'com.example.redisspringboot'
+2018-04-03 11:08:55.470 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\define\Define Job\redis-springboot\target\classes\com\example\redisspringboot\mapper\UserMapper.class]
+2018-04-03 11:08:55.470 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.example.redisspringboot.mapper.UserMapper' mapperInterface
+2018-04-03 11:08:55.470 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2018-04-03 11:08:55.486 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-04-03 11:08:56.079 [main] DEBUG o.h.v.i.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-04-03 11:08:56.095 [main] DEBUG o.h.v.i.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-04-03 11:08:56.095 [main] DEBUG o.h.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-04-03 11:08:56.095 [main] DEBUG o.h.validator.internal.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-04-03 11:08:56.095 [main] DEBUG o.h.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy75
+2018-04-03 11:08:56.095 [main] DEBUG o.h.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-04-03 11:08:56.095 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2018-04-03 11:08:56.095 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2018-04-03 11:08:56.095 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-04-03 11:08:56.095 [main] DEBUG o.h.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2018-04-03 11:08:56.441 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2018-04-03 11:08:56.504 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+2018-04-03 11:08:56.816 [main] INFO  com.example.redisspringboot.config.RedisConfig - JedisPool注入成功！！
+2018-04-03 11:08:56.816 [main] INFO  com.example.redisspringboot.config.RedisConfig - redis地址：k8s.definesys.com:31009
+2018-04-03 11:08:57.113 [main] DEBUG o.h.v.i.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-04-03 11:08:57.129 [main] DEBUG o.h.v.i.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-04-03 11:08:57.129 [main] DEBUG o.h.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-04-03 11:08:57.129 [main] DEBUG o.h.validator.internal.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-04-03 11:08:57.129 [main] DEBUG o.h.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy75
+2018-04-03 11:08:57.129 [main] DEBUG o.h.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-04-03 11:08:57.129 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2018-04-03 11:08:57.129 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2018-04-03 11:08:57.129 [main] DEBUG o.h.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-04-03 11:08:57.129 [main] DEBUG o.h.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2018-04-03 11:08:57.409 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@4145bad8: startup date [Tue Apr 03 11:08:54 CST 2018]; root of context hierarchy
+2018-04-03 11:08:57.503 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/user/getUser],methods=[GET]}" onto public com.example.redisspringboot.entity.User com.example.redisspringboot.controller.UserController.getUserByName(java.lang.String)
+2018-04-03 11:08:57.503 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/user/clearAll],methods=[GET]}" onto public void com.example.redisspringboot.controller.UserController.delAll()
+2018-04-03 11:08:57.503 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/user/delUser],methods=[GET]}" onto public void com.example.redisspringboot.controller.UserController.delUser(java.lang.String)
+2018-04-03 11:08:57.503 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/user/addUser],methods=[POST]}" onto public com.example.redisspringboot.entity.User com.example.redisspringboot.controller.UserController.addUser(com.example.redisspringboot.entity.User)
+2018-04-03 11:08:57.503 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-03 11:08:57.503 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-03 11:08:57.550 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-03 11:08:57.550 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-03 11:08:57.581 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-03 11:08:57.675 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration - No org.mybatis.spring.mapper.MapperFactoryBean found.
+2018-04-03 11:08:57.956 [main] INFO  com.example.redisspringboot.RedisTest - Started RedisTest in 3.794 seconds (JVM running for 4.815)
+2018-04-03 11:08:58.097 [Thread-3] INFO  o.s.w.context.support.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@4145bad8: startup date [Tue Apr 03 11:08:54 CST 2018]; root of context hierarchy
