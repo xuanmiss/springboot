@@ -38,6 +38,7 @@ public class UserService {
     @Cacheable(value = "user", key = "#root.targetClass + #name", unless = "#result eq null")
     public User getUserByName(String name)
     {
+        logger.info("从数据库取第一次的数据");
         return userMapper.getUserByName(name);
     }
 

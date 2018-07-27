@@ -1,14 +1,19 @@
 package com.example.redisspringboot;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.dao.DataAccessException;
+import org.springframework.data.redis.core.RedisOperations;
 import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.data.redis.core.SessionCallback;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.test.context.junit4.SpringRunner;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.concurrent.TimeUnit;
 
@@ -105,5 +110,45 @@ public class RedisTemTest {
     {
         Long l = stringRedisTemplate.opsForValue().size("hello");
         logger.info(l.toString());
+    }
+
+    @Test
+    public void getObject()
+    {
+        String res = stringRedisTemplate.opsForValue().get("auth:6731794e-aab8-455e-b8b9-f1816d2ab8a3");
+        logger.info(res);
+
+    }
+
+    //redisTemplate 事务操作
+
+    @Test
+    @Transactional
+    public void testRedisLimit()
+    {
+        Object o =stringRedisTemplate.execute(new SessionCallback() {
+            @Override
+            public Object execute(RedisOperations operations) throws DataAccessException {
+                //   operations.watch("testRedisMulti");
+                operations.multi();
+                operations.opsForValue().set("testRedisMulti", "0");
+                String now = (String) operations.opsForValue().get("testRedisMulti");
+                System.out.println(now);
+                try {
+                    Thread.sleep(5000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                now = (String) operations.opsForValue().get("testRedisMulti");
+                System.out.println(now);
+                Object rs = operations.exec();
+                return rs;
+            }
+        });
+        System.out.println(stringRedisTemplate.opsForValue().get("testRedisMulti"));
+        System.out.println(o);
+
+//        return o;
+
     }
 }

@@ -77,7 +77,7 @@ public class ExportExcel {
 
             patriarch.createPicture(geanchor,wb.addPicture(byteArrayOut.toByteArray(),HSSFWorkbook.PICTURE_TYPE_PNG));
 
-            fileOut = new FileOutputStream("F:\\define\\Define Job\\武汉康顺.pdf");
+            fileOut = new FileOutputStream("F:\\define\\Define Job\\武汉康顺.xls");
             // 输出文件
             wb.write(fileOut);
         } catch (Exception e) {
